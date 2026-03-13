@@ -94,12 +94,3 @@ make
 | `stats` | Progress bar + breakdown |
 | `report [file.md]` | Generate Markdown report |
 | `reminder <id>` | Toggle reminder for a task |
-
----
-
-## 📌 Resume Bullets
-
-- Architected a **modular C++ CLI task manager** with CSV serialization, **RAII-based auto-save**, and `std::optional` lookups across a clean 3-layer architecture
-- Built a **custom command dispatcher** using `std::map<string, function>` with 15 commands, **iomanip** table formatting, and **regex-based search** with substring fallback
-- Handled **SIGINT** for graceful termination with guaranteed CSV persistence, **real-time reminders**, overdue detection, and due date tracking
-- Delivered **Markdown report generation**, 7-field sorting, ANSI color output, multi-field filtering, and **input sanitization** for robust CLI usability
